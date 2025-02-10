@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>simpleCalculator</title>
+    <link rel="stylesheet" href="project3Calc.css">
+</head>
+<body>
+    <div class="wrapper">
+        
+            <div class="input">
+        <input type="text" id="display">
+        <input type="text" id="display1">
+            </div>
+    <div class="button">
+         <button value="AC" onclick="clrAll()" ondblclick="clrUp()">AC</button>
+        <button value="√ " onclick="squareRoot()">√ </button>
+        <button value="." onclick="displayValue(value)">.</button>
+        <button value="/" onclick="displayValue(value)">/</button>
+        <button value="7" onclick="displayValue(value)">7</button>
+        <button value="8" onclick="displayValue(value)">8</button>
+        <button value="9" onclick="displayValue(value)">9</button>
+        <button value="*" onclick="displayValue(value)">*</button>
+        <button value="4" onclick="displayValue(value)">4</button>
+        <button value="5" onclick="displayValue(value)">5</button>
+        <button value="6" onclick="displayValue(value)">6</button>
+        <button value="-" onclick="displayValue(value)">-</button>
+        <button value="1" onclick="displayValue(value)">1</button>
+        <button value="2" onclick="displayValue(value)"> 2</button>
+        <button value="3" onclick="displayValue(value)">3</button>
+        <button value="+" onclick="displayValue(value)">+</button>
+        <button  id="onOff">OFF</button>
+        <button value="0" onclick="displayValue(value)">0</button>
+        <button value="del" onclick="removeLast()">DEL</button>
+        <button value="=" onclick="calculate()">=</button>
+        </div>
+    
+    </div>
+    <script src="project3Calc.js"></script>
+</body>
+</html>
